@@ -182,7 +182,7 @@ ul#nav li a {
    text-decoration: none;
    outline: none;
    color: #fff;
-   background-color: #333;
+   background-color: transparent;
    border: none;
    border-radius: 15px;
    box-shadow: 0 4px  #fe6928;
