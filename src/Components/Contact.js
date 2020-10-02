@@ -74,41 +74,24 @@ class Contact extends Component {
 				   </div>
            </div>
 
-
+           <a id = "writing"></a>
             <aside className="four columns footer-widgets">
-               <div className="widget widget_contact">
-
-					   <h4>Address and Phone</h4>
-					   <p className="address">
-						   {name}<br />
-						   {street} <br />
-						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
-					   </p>
-				   </div>
-
                <div className="widget widget_tweets">
-                  <h4 className="widget-title">Writings</h4>
+                  <h2 className="widget-title"><font color="#BFBFFF">Writings</font></h2>
                   <ul id="twitter">
                      <li>
                         <span>
-                        Follow the link to check out my writing blog!
-                        <br></br>
-                        <a href="#">https://bethenovelpoet.wordpress.com/</a>
+                        <a href="https://bethenovelpoet.wordpress.com/" target="_blank" rel="noopener noreferrer"><h4>Check out my writing blog!</h4></a>
                         </span>
                      </li>
                      <li>
                         <span>
-                        Follow the link to check out my Instagram writing account!
-                        <br></br>
-                        <a href="#">https://www.instagram.com/scribesbyarshika/</a>
+                        <a href="https://www.instagram.com/scribesbyarshika/" target="_blank" rel="noopener noreferrer"><h4>Check out my Instagram writing account!</h4></a>
                         </span>
                      </li>
                      <li>
                         <span>
-                        Follow the link to check out my published poetry book!
-                        <br></br>
-                        <a href="#">https://store.pothi.com/book/arshika-lalan-dear-diary/</a>
+                        <a href="https://store.pothi.com/book/arshika-lalan-dear-diary/" target="_blank" rel="noopener noreferrer"><h4>Check out my published poetry book!</h4></a>
                         </span>
                      </li>
                   </ul>
