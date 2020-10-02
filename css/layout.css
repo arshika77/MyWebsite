@@ -177,6 +177,8 @@ ul#nav li a {
    display: inline-block;
    line-height: 32px;
    padding: 8px 13px;
+   font: 8px;
+   height: 16px;
    cursor: pointer;
    text-align: center;
    text-decoration: none;
@@ -186,8 +188,6 @@ ul#nav li a {
    border: none;
    border-radius: 15px;
    box-shadow: 0 4px  #fe6928;
-   position: absolute;
-   right: 0;
 
 }
 
