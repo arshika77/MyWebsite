@@ -176,7 +176,7 @@ ul#nav li a {
 #nav .nav-right-btn {
    border-color: whitesmoke;
    position: absolute;
-   right: 5px ;
+   right: 0px ;
 }
 #nav .nav-right-btn:hover {
 	background-color: rgba(255, 198, 93, 0.3);
