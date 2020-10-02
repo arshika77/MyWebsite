@@ -173,7 +173,7 @@ ul#nav li a {
 	transition: color .2s ease-in-out;
 }
 
-.nav-right-btn {
+#nav .nav-right-btn {
    display: inline-block;
    padding: 15px 25px;
    font-size: 24px;
@@ -188,9 +188,9 @@ ul#nav li a {
    box-shadow: 0 9px #999;
 }
 
-.nav-right-btn:hover {background-color: #3e8e41}
+#nav .nav-right-btn:hover {background-color: #3e8e41}
 
-.nav-right-btn:active {
+#nav .nav-right-btn:active {
    background-color: #3e8e41;
    box-shadow: 0 5px #666;
    transform: translateY(4px);
