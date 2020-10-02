@@ -194,7 +194,7 @@ ul#nav li a {
 #nav .nav-right-btn:hover {background-color: #0D0D0D}
 
 #nav .nav-right-btn:active {
-   background-color: #000;
+   background-color: transparent;
    box-shadow: 0 5px #fe6928;
    transform: translateY(4px);
  }
