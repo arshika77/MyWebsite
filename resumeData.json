@@ -19,11 +19,6 @@
     "resumedownload":"https://drive.google.com/file/d/1k0toR6n5RgY-0McHp96HETcfK3idisFc/view?usp=sharing",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://www.facebook.com/lalanarshika/",
-        "className":"fa fa-facebook"
-      },
-      {
         "name":"twitter",
         "url":"https://twitter.com/ArshikaLalan",
         "className":"fa fa-twitter"
@@ -32,11 +27,6 @@
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/arshika-lalan-ba0573195/",
         "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"https://www.instagram.com/_pro.cat.stinator_/",
-        "className":"fa fa-instagram"
       },
       {
         "name":"github",
