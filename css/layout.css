@@ -175,8 +175,8 @@ ul#nav li a {
 
 #nav .nav-right-btn {
    display: inline-block;
-   padding: 15px 25px;
-   font-size: 24px;
+   line-height: 32px;
+   padding: 8px 13px;
    cursor: pointer;
    text-align: center;
    text-decoration: none;
@@ -185,8 +185,7 @@ ul#nav li a {
    background-color: #333;
    border: none;
    border-radius: 15px;
-   box-shadow: 0 9px  #fe6928;
-   height: 48px;
+   box-shadow: 0 4px  #fe6928;
    position: absolute;
    right: 0;
 
