@@ -1,0 +1,169 @@
+{
+  "main": {
+    "name":"Arshika Lalan",
+    "description":"Welcome to my website! Here you'll find information about my projects, my resume and my writing blogs. I am always keen to interact with new people whether it be for a collaboration on a project, discussing common interests or general doubt-clearing. I am a strong advocate for women in STEM, and believe in equal opportunities for all ",
+    "image":"mypiccropped.png",
+    "bio":"I am a B.E. Computer Science and MSc. Economics double major at BITS Pilani, Goa campus. I am a Deep Learning and Machine Learning enthusiast, who loves to experiment and explore new ideas. I love maths, econometrics and statistics. I also love to work on web development using React.js",
+    "contactmessage":"Let's get in touch! Fill the form below to shoot me a message",
+    "email": "arshika77@gmail.com",
+    "phone": "+91 9834797109/ +91 7566444887",
+    "github":"https://github.com/arshika77",
+    "certificates":"https://drive.google.com/drive/u/0/folders/1U3UCwo8l8d7hNK64apH04b_32MZLNs1f",
+    "address":{
+      "street":"D-236, Terrace House, Ayodhya Nagar",
+      "city":"Bhopal",
+      "state":"Madhya Pradesh",
+      "zip": "462042"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"https://drive.google.com/file/d/1k0toR6n5RgY-0McHp96HETcfK3idisFc/view?usp=sharing",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/lalanarshika/",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/ArshikaLalan",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/arshika-lalan-ba0573195/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/_pro.cat.stinator_/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/arshika77",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"BITS Pilani, Goa campus",
+        "degree":"B.E Computer Science and MSc. Economics (Dual Major)",
+        "graduated":"August 2017-June 2022",
+        "description":"CGPA: 8.37/10"
+      },
+      {
+        "school":"Delhi Public School, Bhopal",
+        "degree":"High School",
+        "graduated":"April 2017",
+        "description":"Class XII, CBSE: (PCM) 94.2%      Class X, CBSE: 10/10"
+      }
+    ],
+    "work":[
+      {
+        "company":"The Mars Colonization project by Microsoft",
+        "title":"Web Development",
+        "years":"June 2020 - July 2020",
+        "description":"A part of Microsoft’s Engage 2020 program, the aim of the project was to find the shortest path intelligently between a mars rover and the destination, while avoiding obstacles. The project was hosted as a webpage on completion."
+      },
+      {
+        "company":"Sparse Distributed Memory using spiking neural networks and rank order codes",
+        "title":"Spiking Neural Networks",
+        "years":"May 2020 - Present",
+        "description":"The project aims to use the concepts of rank order encoding and spiking neural networks to build a spare distributed memory. A sparse distributed memory mechanism is expected to increase training speed of machine learning models. It also has applications in one-shot learning where available data is scarce."
+      },
+      {
+        "company":"Semantic Segmentation using UNet",
+        "title":"Semantic Segmentation",
+        "years":"May 2020 - July 2020",
+        "description":"Semantic segmentation for autonomous vehicles was done using UNet on the Cityscape Image Pairs dataset."
+      },
+      {
+        "company":"The Effect of Fiscal Policy on Investment",
+        "title":"Panel Data Regression",
+        "years":"Mar 2020 - May 2020",
+        "description":"This project evaluates the impact of fiscal policy components on private and public investment using data for a panel of fifteen emerging economies over the period 2009-2017. The within estimator and the two step System - GMM estimators have been employed for this data analysis in order to make useful inferences."
+      },
+      {
+        "company":"An analysis of Total Factor Productivity in OECD countries: A Neural Networks approach",
+        "title":"Neural Networks",
+        "years":"Jan 2020 - May 2020",
+        "description":"A part of Microsoft’s Engage 2020 program, the aim of the project was to find the shortest path intelligently between a mars rover and the destination, while avoiding obstacles. The project was hosted as a webpage on completion."
+      },
+      {
+        "company":"Skill Management chatbot",
+        "title":"Chatbots",
+        "years":"May 2019 - Jul 2019",
+        "description":"This project evaluates the impact of fiscal policy components on private and public investment using data for a panel of fifteen emerging economies over the period 2009-2017. The within estimator and the two step System - GMM estimators have been employed for this data analysis in order to make useful inferences."
+      },
+      {
+        "company":"Data Mining in healthcare",
+        "title":"Data Mining",
+        "years":"Jan 2019 - May 2019",
+        "description":"The use of regression techniques was employed to find which government yojanas and healthcare schemes are effective in the country. The most infectious and dangerous diseases were also identified that hamper the health of the country."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"70%"
+      },
+      {
+        "name":"PyTorch and TensorFlow",
+        "level":"80%"
+      },
+      {
+        "name":"React,js",
+        "level":"60%"
+      },
+      {
+        "name":"Object Oriented Programming",
+        "level":"80%"
+      },
+      {
+        "name":"C++",
+        "level":"75%"
+      },
+      {
+        "name":"JAVA",
+        "level":"65%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  }
+}
