@@ -4,7 +4,6 @@
 *   url: styleshout.com
 *   03-18-2014
 =====================================================================
-
    TOC:
    a. General Styles
    b. Header Styles
@@ -15,7 +14,6 @@
    g. Testimonials Section
    h. Contact Section
    i. Footer
-
 ===================================================================== */
 
 /* ------------------------------------------------------------------ */
@@ -23,7 +21,6 @@
 /* ------------------------------------------------------------------ */
 
 body { background: #0f0f0f; }
-
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -177,6 +174,7 @@ ul#nav li a {
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #fe6928; }
 
+
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
@@ -278,10 +276,6 @@ ul#nav li.current a { color: #fe6928; }
    margin-top: 6px;
 }
 
-#resume .project html {
-    scroll-behavior: smooth; 
-}
-
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -354,7 +348,6 @@ ul#nav li.current a { color: #fe6928; }
   	-moz-animation: mongodb 2s ease;
   	-webkit-animation: mongodb 2s ease;
 }
-
 @-moz-keyframes git {
   0%   { width: 0px;  }
   100% { width: 60%;  }
@@ -383,7 +376,6 @@ ul#nav li.current a { color: #fe6928; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 60%;  }
