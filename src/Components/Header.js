@@ -43,8 +43,8 @@ class Header extends Component {
             <h3>{designation}</h3>
             <hr />
             <ul className="social">
-               <a href={certificates} className="button btn project-btn"><i className="fa fa-book"></i>Certificates</a>
-               <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
+               <a href={certificates} className="button btn project-btn" target="_blank" rel="noopener noreferrer"><i className="fa fa-book"></i>Certificates</a>
+               <a href={github} className="button btn github-btn" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i>Github</a>
             </ul>
          </div>
       </div>

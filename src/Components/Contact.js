@@ -1,13 +1,47 @@
 import React, { Component } from 'react';
+import axios from "axios";
 
 class Contact extends Component {
-  render() {
 
-    if(this.props.data){
+   constructor(props){
+      super(props);
+      this.state = {contactName: "",  contactEmail: "", contactSubject: "", contactMessage: ""};
+   }
+
+   handleChange = e => this.setState({ [e.target.name]: e.target.value });
+
+   handleForm = e => {
+      axios.post(
+          "https://formcarry.com/s/MAZVc9lP_", 
+          this.state, 
+          {headers: {"Accept": "application/json"}}
+        )
+        .then(function (response) {
+          
+          // access response.data in order to check formcarry response
+          if(response.data.success){
+            // handle success
+            console.log(response.data.message)
+          } else {
+            // handle error
+            console.log(response.data.message);
+          }
+   
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+      
+      e.preventDefault();
+   }
+
+   render() {
+
+   if(this.props.data){
       var name = this.props.data.name;
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
+      var s = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
@@ -36,31 +70,31 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form id="contactForm" name="contactForm" action="https://formspree.io/f/meqpowve" method="POST">
+               <form id="contactForm" onSubmit={this.handleForm} >
 					<fieldset>
 
                   <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
+						   <label htmlFor="contactName" name="name">Name <span className="required">*</span></label>
 						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
                   </div>
 
                   <div>
-						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
+						   <label htmlFor="contactEmail" name="email">Email <span className="required">*</span></label>
 						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
                   </div>
 
                   <div>
-						   <label htmlFor="contactSubject">Subject</label>
+						   <label htmlFor="contactSubject" name="subject">Subject</label>
 						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
-                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+                     <label htmlFor="contactMessage" name = "message">Message <span className="required">*</span></label>
                      <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                     <button className="submit" name="Send">Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
@@ -68,9 +102,10 @@ class Contact extends Component {
 					</fieldset>
 				   </form>
 
-           <div id="message-warning"> Error boy</div>
-				   <div id="message-success">
-                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
+
+           <div></div>
+				   <div >
+                  
 				   </div>
            </div>
 
