@@ -9,6 +9,7 @@ class Header extends Component {
       var github = this.props.data.github;
       var name = this.props.data.name;
       var description= this.props.data.description;
+      var designation = this.props.data.designation;
       var city= this.props.data.address.city;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
@@ -39,6 +40,7 @@ class Header extends Component {
             <br></br>
             <h3>{description}.</h3>
             <br></br>
+            <h3>{designation}</h3>
             <hr />
             <ul className="social">
                <a href={certificates} className="button btn project-btn"><i className="fa fa-book"></i>Certificates</a>
